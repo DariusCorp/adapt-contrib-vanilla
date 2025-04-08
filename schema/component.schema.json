@@ -15,13 +15,13 @@
           "properties": {
             "_textAlignment": {
               "type": "object",
-              "title": "Text alignment",
+              "title": "Alinierea textului",
               "default": {},
               "properties": {
                 "_title": {
                   "type": "string",
-                  "title": "Title alignment",
-                  "description": "Set the alignment of the component title. Left: Aligns the title to the left of the container. Center: Aligns the title to the center of the container. Right: Aligns the title to the right of the container. The alignment automatically inverses for right-to-left languages. The default is `` which inherits the natural page direction.",
+                  "title": "Alinierea titlului",
+                  "description": "Setează alinierea titlului articolului. Stânga: Aliniază titlul la stânga containerului. Centru: Aliniază titlul la centrul containerului. Dreapta: Aliniază titlul la dreapta containerului. Alinierea se inversează automat pentru limbile de dreapta la stânga. Implicit este `` care moștenește direcția naturală a paginii.",
                   "default": "",
                   "enum": [
                     "",
@@ -33,8 +33,8 @@
                 },
                 "_body": {
                   "type": "string",
-                  "title": "Body alignment",
-                  "description": "Set the alignment of the component body. Left: Aligns the body to the left of the container. Center: Aligns the body to the center of the container. Right: Aligns the body to the right of the container. The alignment automatically inverses for right-to-left languages. The default is `` which inherits the natural page direction.",
+                  "title": "Alinierea corpului",
+                  "description": "Setează alinierea corpului articolului. Stânga: Aliniază corpul la stânga containerului. Centru: Aliniază corpul la centrul containerului. Dreapta: Aliniază corpul la dreapta containerului. Alinierea se inversează automat pentru limbile de dreapta la stânga. Implicit este `` care moștenește direcția naturală a paginii.",
                   "default": "",
                   "enum": [
                     "",
@@ -46,8 +46,8 @@
                 },
                 "_instruction": {
                   "type": "string",
-                  "title": "Instruction alignment",
-                  "description": "Set the alignment of the component instruction. Left: Aligns the instruction to the left of the container. Center: Aligns the instruction to the center of the container. Right: Aligns the instruction to the right of the container. The alignment automatically inverses for right-to-left languages. The default is `` which inherits the natural page direction.",
+                  "title": "Alinierea instrucțiunilor",
+                  "description": "Setează alinierea instrucțiunii articolului. Stânga: Aliniază instrucțiunea la stânga containerului. Centru: Aliniază instrucțiunea la centrul containerului. Dreapta: Aliniază instrucțiunea la dreapta containerului. Alinierea se inversează automat pentru limbile de la dreapta la stânga. Implicit este `` care moștenește direcția naturală a paginii.",
                   "default": "",
                   "enum": [
                     "",

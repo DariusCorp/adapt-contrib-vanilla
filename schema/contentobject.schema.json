@@ -15,13 +15,13 @@
           "properties": {
             "_backgroundImage": {
               "type": "object",
-              "title": "Background image",
+              "title": "Imagine de fundal",
               "default": {},
               "properties": {
                 "_xlarge": {
                   "type": "string",
-                  "title": "Extra large",
-                  "description": "Extra large background image, e.g. hd laptop/desktop computers",
+                  "title": "Foarte mare",
+                  "description": "Imagine de fundal foarte mare, de exemplu laptop HD/computere desktop",
                   "_backboneForms": {
                     "type": "Asset",
                     "media": "image"
@@ -29,8 +29,8 @@
                 },
                 "_large": {
                   "type": "string",
-                  "title": "Large",
-                  "description": "Large background image, e.g. laptop/desktop computers",
+                  "title": "Mare",
+                  "description": "Imagine de fundal mare, de exemplu laptop/computere desktop",
                   "_backboneForms": {
                     "type": "Asset",
                     "media": "image"
@@ -38,8 +38,8 @@
                 },
                 "_medium": {
                   "type": "string",
-                  "title": "Medium",
-                  "description": "Medium background image, e.g. tablet devices",
+                  "title": "Medie",
+                  "description": "Imagine de fundal medie, de exemplu tablete",
                   "_backboneForms": {
                     "type": "Asset",
                     "media": "image"
@@ -47,8 +47,8 @@
                 },
                 "_small": {
                   "type": "string",
-                  "title": "Small",
-                  "description": "Small background image, e.g. mobile / cellphones",
+                  "title": "Mică",
+                  "description": "Imagine de fundal mică, de exemplu telefoane mobile",
                   "_backboneForms": {
                     "type": "Asset",
                     "media": "image"
@@ -58,13 +58,13 @@
             },
             "_backgroundStyles": {
               "type": "object",
-              "title": "Background image styles",
+              "title": "Stiluri de imagine de fundal",
               "default": {},
               "properties": {
                 "_backgroundRepeat": {
                   "type": "string",
-                  "title": "Repeat",
-                  "description": "Repeat-x: The background image is repeated only horizontally. Repeat-y: The background image is repeated only vertically",
+                  "title": "Repetă",
+                  "description": "Repeat-x: Imaginea de fundal se repetă numai pe orizontală. Repeat-y: Imaginea de fundal se repetă numai pe verticală",
                   "default": "no-repeat",
                   "enum": [
                     "repeat",
@@ -76,8 +76,8 @@
                 },
                 "_backgroundSize": {
                   "type": "string",
-                  "title": "Size",
-                  "description": "Auto: The background image is displayed in its original size. Cover: Resize the background image to cover the entire container, even if it has to stretch or crop the image. Contain: Resize the background image to make sure the image is fully visible. 100% 100%: Resize the background image to match the dimensions of the container",
+                  "title": "Mărime",
+                  "description": "Auto: Imaginea de fundal este afișată la dimensiunea inițială. Cover: redimensionați imaginea de fundal pentru a acoperi întregul container, chiar dacă trebuie să întindă sau să decupeze imaginea. Contain: Redimensionați imaginea de fundal pentru a vă asigura că imaginea este complet vizibilă. 100% 100%: Redimensionați imaginea de fundal pentru a se potrivi cu dimensiunile containerului",
                   "default": "cover",
                   "enum": [
                     "auto",
@@ -89,8 +89,8 @@
                 },
                 "_backgroundPosition": {
                   "type": "string",
-                  "title": "Position",
-                  "description": "The first value is the horizontal position and the second value is the vertical",
+                  "title": "Poziție",
+                  "description": "Prima valoare este poziția orizontală, iar a doua valoare este poziția verticală",
                   "default": "center top",
                   "enum": [
                     "left top",
@@ -109,49 +109,49 @@
             },
             "_responsiveClasses": {
               "type": "object",
-              "title": "Responsive classes",
+              "title": "Clase responsive",
               "default": {},
               "properties": {
                 "_xlarge": {
                   "type": "string",
-                  "title": "Extra large",
-                  "description": "Extra large CSS class, e.g. hd laptop/desktop computers",
+                  "title": "Foarte mare",
+                  "description": "Clasa CSS foarte mare, de exemplu laptop HD/computere desktop",
                   "default": ""
                 },
                 "_large": {
                   "type": "string",
-                  "title": "Large",
-                  "description": "Large CSS class, e.g. laptop/desktop computers",
+                  "title": "Mare",
+                  "description": "Clasă CSS mare, de exemplu computere laptop/desktop",
                   "default": ""
                 },
                 "_medium": {
                   "type": "string",
-                  "title": "Medium",
-                  "description": "Medium CSS class, e.g. tablet devices",
+                  "title": "Medie",
+                  "description": "Clasa CSS medie, de exemplu tablete",
                   "default": ""
                 },
                 "_small": {
                   "type": "string",
-                  "title": "Small",
-                  "description": "Small CSS class, e.g. mobile / cellphones",
+                  "title": "Mică",
+                  "description": "Clasa CSS mică, de exemplu telefoane mobile",
                   "default": ""
                 }
               }
             },
             "_pageHeader": {
               "type": "object",
-              "title": "Header",
+              "title": "Antet",
               "default": {},
               "properties": {
                 "_textAlignment": {
                   "type": "object",
-                  "title": "Text alignment",
+                  "title": "Alinierea textului",
                   "default": {},
                   "properties": {
                     "_title": {
                       "type": "string",
-                      "title": "Title alignment",
-                      "description": "Set the alignment of the page title. Left: Aligns the title to the left of the container. Center: Aligns the title to the center of the container. Right: Aligns the title to the right of the container. The alignment automatically inverses for right-to-left languages. The default is `` which inherits the natural page direction.",
+                      "title": "Alinierea titlului",
+                      "description": "Setează alinierea titlului paginii. Stânga: Aliniază titlul la stânga containerului. Centru: Aliniază titlul la centrul containerului. Dreapta: Aliniază titlul la dreapta containerului. Alinierea se inversează automat pentru limbile de dreapta la stânga. Implicit este `` care moștenește direcția naturală a paginii.",
                       "default": "",
                       "enum": [
                         "",
@@ -163,8 +163,8 @@
                     },
                     "_body": {
                       "type": "string",
-                      "title": "Body alignment",
-                      "description": "Set the alignment of the page body. Left: Aligns the body to the left of the container. Center: Aligns the body to the center of the container. Right: Aligns the body to the right of the container. The alignment automatically inverses for right-to-left languages. The default is `` which inherits the natural page direction.",
+                      "title": "Alinierea corpului",
+                      "description": "Setează alinierea corpului paginii. Stânga: Aliniază corpul la stânga containerului. Centru: Aliniază corpul la centrul containerului. Dreapta: Aliniază corpul la dreapta containerului. Alinierea se inversează automat pentru limbile de la dreapta la stânga. Implicit este `` care moștenește direcția naturală a paginii.",
                       "default": "",
                       "enum": [
                         "",
@@ -176,8 +176,8 @@
                     },
                     "_instruction": {
                       "type": "string",
-                      "title": "Instruction alignment",
-                      "description": "Set the alignment of the page instruction. Left: Aligns the instruction to the left of the container. Center: Aligns the instruction to the center of the container. Right: Aligns the instruction to the right of the container. The alignment automatically inverses for right-to-left languages. The default is `` which inherits the natural page direction.",
+                      "title": "Alinierea instrucțiunilor",
+                      "description": "Setează alinierea instrucțiunii paginii. Stânga: Aliniază instrucțiunea la stânga containerului. Centru: Aliniază instrucțiunea la centrul containerului. Dreapta: Aliniază instrucțiunea la dreapta containerului. Alinierea se inversează automat pentru limbile de la dreapta la stânga. Implicit este `` care moștenește direcția naturală a paginii.",
                       "default": "",
                       "enum": [
                         "",
@@ -191,13 +191,13 @@
                 },
                 "_backgroundImage": {
                   "type": "object",
-                  "title": "Header background image",
+                  "title": "Imaginea de fundal a antetului",
                   "default": {},
                   "properties": {
                     "_xlarge": {
                       "type": "string",
-                      "title": "Extra large",
-                      "description": "Extra large background image, e.g. hd laptop/desktop computers",
+                      "title": "Foarte mare",
+                      "description": "Imagine de fundal foarte mare, de exemplu laptop HD/computere desktop",
                       "_backboneForms": {
                         "type": "Asset",
                         "media": "image"
@@ -205,8 +205,8 @@
                     },
                     "_large": {
                       "type": "string",
-                      "title": "Large",
-                      "description": "Large background image, e.g. laptop/desktop computers",
+                      "title": "Mare",
+                      "description": "Imagine de fundal mare, de exemplu laptop/computere desktop",
                       "_backboneForms": {
                         "type": "Asset",
                         "media": "image"
@@ -214,8 +214,8 @@
                     },
                     "_medium": {
                       "type": "string",
-                      "title": "Medium",
-                      "description": "Medium background image, e.g. tablet devices",
+                      "title": "Medie",
+                      "description": "Imagine de fundal medie, de exemplu tablete",
                       "_backboneForms": {
                         "type": "Asset",
                         "media": "image"
@@ -223,8 +223,8 @@
                     },
                     "_small": {
                       "type": "string",
-                      "title": "Small",
-                      "description": "Small background image, e.g. mobile / cellphones",
+                      "title": "Mică",
+                      "description": "Imagine de fundal mică, de exemplu telefoane mobile",
                       "_backboneForms": {
                         "type": "Asset",
                         "media": "image"
@@ -234,13 +234,13 @@
                 },
                 "_backgroundStyles": {
                   "type": "object",
-                  "title": "Header background image styles",
+                  "title": "Stiluri de imagine pentru fundalul antetului",
                   "default": {},
                   "properties": {
                     "_backgroundRepeat": {
                       "type": "string",
-                      "title": "Repeat",
-                      "description": "Repeat-x: The background image is repeated only horizontally. Repeat-y: The background image is repeated only vertically",
+                      "title": "Repetă",
+                      "description": "Repeat-x: Imaginea de fundal se repetă numai pe orizontală. Repeat-y: Imaginea de fundal se repetă numai pe verticală",
                       "default": "no-repeat",
                       "enum": [
                         "repeat",
@@ -252,8 +252,8 @@
                     },
                     "_backgroundSize": {
                       "type": "string",
-                      "title": "Size",
-                      "description": "Auto: The background image is displayed in its original size. Cover: Resize the background image to cover the entire container, even if it has to stretch or crop the image. Contain: Resize the background image to make sure the image is fully visible. 100% 100%: Resize the background image to match the dimensions of the container",
+                      "title": "Mărime",
+                      "description": "Auto: Imaginea de fundal este afișată la dimensiunea inițială. Cover: redimensionați imaginea de fundal pentru a acoperi întregul container, chiar dacă trebuie să întindă sau să decupeze imaginea. Contain: Redimensionați imaginea de fundal pentru a vă asigura că imaginea este complet vizibilă. 100% 100%: Redimensionați imaginea de fundal pentru a se potrivi cu dimensiunile containerului",
                       "default": "cover",
                       "enum": [
                         "auto",
@@ -265,8 +265,8 @@
                     },
                     "_backgroundPosition": {
                       "type": "string",
-                      "title": "Position",
-                      "description": "The first value is the horizontal position and the second value is the vertical",
+                      "title": "Poziție",
+                      "description": "Prima valoare este poziția orizontală, iar a doua valoare este poziția verticală",
                       "default": "center top",
                       "enum": [
                         "left top",
@@ -290,26 +290,26 @@
                   "properties": {
                     "_xlarge": {
                       "type": "number",
-                      "title": "Extra large",
-                      "description": "Minimum height should only be used in instances where the page header height needs to be greater than the content e.g. to prevent a background image being cropped. For e.g. hd laptop/desktop computers",
+                      "title": "Foarte mare",
+                      "description": "Înălțimea minimă trebuie utilizată numai în cazurile în care înălțimea antetului paginii trebuie să fie mai mare decât conținutul, de exemplu pentru a preveni decuparea unei imagini de fundal. De exemplu, laptop HP/desktop",
                       "default": 0
                     },
                     "_large": {
                       "type": "number",
-                      "title": "Large",
-                      "description": "Minimum height should only be used in instances where the page header height needs to be greater than the content e.g. to prevent a background image being cropped. For , e.g. laptop/desktop computers",
+                      "title": "Mare",
+                      "description": "Înălțimea minimă trebuie utilizată numai în cazurile în care înălțimea antetului paginii trebuie să fie mai mare decât conținutul, de exemplu pentru a preveni decuparea unei imagini de fundal. Pentru , de exemplu, laptopuri/computere desktop",
                       "default": 0
                     },
                     "_medium": {
                       "type": "number",
-                      "title": "Medium",
-                      "description": "Minimum height should only be used in instances where the page header height needs to be greater than the content e.g. to prevent a background image being cropped. For e.g. tablet devices",
+                      "title": "Medie",
+                      "description": "Înălțimea minimă trebuie utilizată numai în cazurile în care înălțimea antetului paginii trebuie să fie mai mare decât conținutul, de exemplu pentru a preveni decuparea unei imagini de fundal. De exemplu, pentru tablete",
                       "default": 0
                     },
                     "_small": {
                       "type": "number",
-                      "title": "Small",
-                      "description": "Minimum height should only be used in instances where the page header height needs to be greater than the content e.g. to prevent a background image being cropped. For e.g. mobile / cellphones",
+                      "title": "Mică",
+                      "description": "Înălțimea minimă trebuie utilizată numai în cazurile în care înălțimea antetului paginii trebuie să fie mai mare decât conținutul, de exemplu pentru a preveni decuparea unei imagini de fundal. De exemplu, telefoane mobile / mobile",
                       "default": 0
                     }
                   }

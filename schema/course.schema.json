@@ -10,7 +10,7 @@
       "properties": {
         "_vanilla": {
           "type": "object",
-          "title": "Theme",
+          "title": "Temă",
           "default": {},
           "properties": {
             "_favIcon": {
@@ -20,8 +20,8 @@
               "properties": {
                 "_src": {
                   "type": "string",
-                  "title": "Image",
-                  "description": "Select a favicon to improve user experience and enforce brand consistency. This will be displayed in places like your browser's address bar, page tabs and bookmarks menu. Usually, a favicon is 16 x 16 pixels in size and stored in the GIF, PNG, or ICO file format.",
+                  "title": "Imagine",
+                  "description": "Selectați un favicon pentru a îmbunătăți experiența utilizatorului și pentru a impune consecvența mărcii. Acesta va fi afișat în locuri precum bara de adrese a browserului, filele de pagină și meniul de marcaje. De obicei, un favicon are dimensiunea de 16 x 16 pixeli și este stocat în format de fișier GIF, PNG sau ICO.",
                   "_backboneForms": {
                     "type": "Asset",
                     "media": "image"
