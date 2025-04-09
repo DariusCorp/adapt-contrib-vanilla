@@ -837,7 +837,7 @@
                       "type": "string",
                       "required": false,
                       "default": "center top",
-                      "inputType": {"type":"SSetați poziția imaginii de fundalelect", "options":["left top","left center","left bottom","center top","center center","center bottom","right top","right center","right bottom"]},
+                      "inputType": {"type":"Select", "options":["left top","left center","left bottom","center top","center center","center bottom","right top","right center","right bottom"]},
                       "title": "Set the position of the background image",
                       "help": "Prima valoare este poziția orizontală, iar a doua valoare este poziția verticală."
                     }
